@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.signin-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 100px;
+    z-index: 1;
+}
+.singin-header-btn{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.singin-header-btn a{
+    margin-left: 40px;
+    border-radius: 6px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 16px 38px;
+    text-decoration: none;
+    outline: none; 
+    background-color: palevioletred;
+    color: #fff;#Salam:hover {
+  transform: scale(1.2); 
+}
+}
+.singin-header-btn p{
+    margin-top: 1rem;
+}
+
+.singin-header-btn a:hover {
+    transform: scale(1.2); 
+  }
+
+  .bg_image_container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+  .bg_image {
+    background-image: url(/asset/image/login/bg-image-9.png);
+    
+}
+
+.signin_photo {
+    min-height: 900px;
+    height: 100vh;
+    padding: 200px 50px 0 100px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.first-signin-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+ .form-control {
+    height: 60px;
+    padding: 0 30px;
+    
+}
+.signin-btn{
+    border-radius: 6px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 16px 38px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    background-color: #3577F0;
+    color: #fff;
+    border-color: #3577F0;
+    
+}
+.signin-btn :hover {
+    transform: scale(1.2); 
+  }
+
+
+
+
+
+@media(max-width: 760px) {
+    .singin-header-btn{
+        display: block;
+        text-align: center;;
+    }
+    .login-logo{
+      text-align: center;
+    }
+    .singin-header-btn a{
+        margin-left: 0px;
+        
+    }
+    .bg_image {
+        display: none;
+    }
+    .register{
+        margin: 300px 30px 0px 30px;
+    }
+    
+  }
