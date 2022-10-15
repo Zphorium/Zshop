@@ -789,7 +789,7 @@ ul {
 .footer-bottom{
   display: flex;
   justify-content: space-between;
-  align-items: center;;
+  align-items: center;
 }
 
 .fasearch{
@@ -805,6 +805,92 @@ ul {
   top: -68.5px;
   right: 68px;
 }
+a:hover{
+  color: #000;
+}
+
+#sebet{
+  position: relative;
+}
+
+#counter{
+border-radius: 50%;
+font-size: 10px;
+position: absolute;
+bottom: 18px;
+background-color: #3577F0;
+color: #fff;
+padding: 4px;
+
+}
+#slidebar {
+  background-color: #F6F7F8;
+  border-top: 1px solid black;
+  position: fixed;
+  width: 0%;
+  height: 100%;
+  top: 110px;
+  right: 0;
+  transition: 0.7s;
+  z-index: 9999;
+}
+#slidebar .box {
+  border-bottom: 1px solid black;
+}
+#slidebar a {
+  margin-left: 1rem;
+}
+#slidebar i {
+  margin-right: 1rem;
+}
+
+
+.feedbackmain .feedbackicon {
+  color: #ff497c;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.feedbackmain .feedbackicon i {
+  background-color: #ff497c;
+  border-radius: 50%;
+  color: #fff;
+  padding: 6px;
+}
+.usertitle {
+  padding: 15px 0;
+}
+.usertitle h2 {
+  font-weight: 600;
+}
+
+.feedbackmain{
+  margin-top: 30px;
+}
+
+.feed {
+  padding: 0 30px;
+  border: none;
+  background-color: #f9f3f0;
+  padding-bottom: 3rem;
+}
+ .feed .feedtop p {
+  background-color: #fff;
+  padding: 30px 30px;
+  font-size: 15px;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+ .feed .card .feedbottom {
+  background-color: #f9f3f0;
+  display: flex;
+  justify-content: space-evenly;
+}
+ .feed .feedbottom .user-top img {
+  border-radius: 5px;
+}
+ .feed .feedbottom .user-text span {
+  opacity: 0.6;
+}
 
 
 
@@ -818,16 +904,7 @@ ul {
 
 @media(max-width: 760px) {
   
-  .next{
-    position: absolute;
-    top: -70px;
-    right: 175px;
-  }
-  .prew{
-    position: absolute;
-    top: -68.5px;
-    right: 130px;
-  }
+  
   .deliver{
     
      display: block;
@@ -925,14 +1002,4 @@ ul {
 }
 
 
-#sebet{
-  position: relative;
-}
 
-#counter{
-border-radius: 50%;
-font-size: 1rem;
-position: absolute;
-bottom: 18px;
-
-}

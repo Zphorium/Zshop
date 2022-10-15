@@ -212,7 +212,17 @@ let target  = e.target;
        
  });
 
-
+ var menu=document.querySelector("#iconbars")
+ var slidebar=document.querySelector("#slidebar")
+ 
+ menu.addEventListener("click",function (){
+     if(slidebar.style.width==="100%"){
+         slidebar.style.width="0%"
+     }
+     else{
+         slidebar.style.width="100%"
+     }
+ })
  
 
 
@@ -220,3 +230,38 @@ let target  = e.target;
 
  
 
+ $('.feedbacks').slick({
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  nextArrow:'<span class="next"><i class="fa-solid fa-arrow-right"></i></span>',
+  prevArrow:'<span class="prew"><i class="fa-solid fa-arrow-left"></i></span>',
+  
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});

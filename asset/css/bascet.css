@@ -10,5 +10,55 @@
  font-size: 1rem;
  position: absolute;
  bottom: 18px;
- 
  }
+ .cart-update-btn-area{
+    
+    display: flex;
+    justify-content: space-between;
+ }
+ .input-group{
+   display: flex;
+   align-items: center;
+ }
+ .update-btn{
+   text-align: center;
+   border-radius: 8px;
+   padding: 10px 10px;
+   border: 0.5px solid gray;
+   width: 15%;
+ }
+ .input-group input{
+   border: none;
+   border-bottom: 0.5px solid gray;
+   padding: 0px 80px 0px 10px;
+ }
+ .product-cupon-btn{
+   padding: 10px 10px;
+   border-radius: 8px;
+   border: 0.5px solid gray;
+   background-color: #fff;
+   font-weight: bold;
+ }
+ .cart-update-btn-area{
+   margin-top: 100px;
+ }
+ .proses {
+  background-color: #3577F0;
+  border: none;
+  padding: 12px 50px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+.uptoall{
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: antiquewhite;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.end{
+  display: flex;
+  justify-content: end;
+}
